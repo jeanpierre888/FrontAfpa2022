@@ -1,0 +1,142 @@
+body {
+    background-image: url('image/body.png');
+    margin: 20px 30px;
+    font-family: sans-serif;
+}
+
+
+#entete {
+    background: #9f9f9f url('image/entete.png');
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+h1 {
+    height: 58px;
+    line-height: 1px solid black;
+    margin: 0;
+    text-align: center;
+    background: url('image/h1.png') 50% 50% no-repeat;
+    text-indent: -32000px;
+}
+
+
+#menu {
+    background: black url('image/menu.png');
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 29px;
+}
+
+
+#menu li {
+    float: left;
+    margin: 0 2px;
+}
+
+#menu a {
+    display: block;
+    text-decoration: none;
+    color: #ffb400;
+    background: url('image/menu-lien.png');
+    cursor: pointer;
+}
+
+#menu span {
+    display: block;
+    height: 21px;
+    line-height: 21px;
+    padding: 0;
+    background: url('image/menu-lien-droite.png');
+}
+
+
+#menu a:hover,
+#menu a:focus,
+#menu a:active {
+    color: black;
+    background-color: #ffb400;
+    background-position: 0 -21px;
+}
+
+
+#menu a:hover span,
+#menu a:focus span,
+#menu a:active span {
+    background-position: 100% -21px;
+}
+
+#menu .actuel {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#page {
+    background: white url('image/sous-menu.png') repeat-y;
+    border: 1px solid black;
+}
+
+
+#sous-menu {
+    background: black url('image/sous-menu.png') repeat-y;
+    float: left;
+    width: 198px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sous-menu a {
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    background: url('image/sous-menu-lien.png');
+    text-align: center;
+    text-decoration: none;
+    color: #ffb400;
+    margin: 2px 0;
+}
+
+
+
+#sous-menu a:hover,
+#sous-menu a:focus,
+#sous-menu a:active {
+
+    color:black;
+    background-color: #ffb400;
+    background-position: 0 -22px;
+}
+
+
+#sous-menu .actuel {
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+#contenu {
+    margin: 10px 10px 10px 209px;
+}
+
+p {
+    text-align: justify;
+}
+
+
+#pied {
+    clear: both;
+    border-top: 1px solid black;
+    background: #9f9f9f url('image/pied.png');
+    font-size: 12px;
+    padding-top: 9px;
+    height: 38px;
+    line-height: 19px;
+    text-align: center;
+    color: #444444;
+}
+
+#pied a {
+    color: black;
+}
